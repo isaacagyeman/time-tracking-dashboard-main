@@ -1,13 +1,17 @@
 import React from "react"
 import Card from './components/Card.js'
+import Cardsmall from "./components/Cardsmall.js";
 
 
 
 export default function App() {
   return (
-    <div>
+    <main className="parent">
       <Card />
-    </div>
+      <div className="smallcardParent">
+      <Cardsmall />
+      </div>
+    </main>
   );
 }
 

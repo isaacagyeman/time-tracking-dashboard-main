@@ -4,36 +4,75 @@
     box-sizing: border-box;
 }
 
-/* body{
-
-} */
+body{
+    background: hsl(226, 43%, 10%);
+}
 
 .cardOuter{
     background-color: hsl(235, 46%, 20%);
-    width: 15%;
-    padding-bottom: .5em;
+    width: 23%;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
-    /* border: solid red; */
 }
 .cardInner{
     background-color:  hsl(246, 80%, 60%);
-    padding: 1em;
+    padding: .4em;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
 }
+.smallcardParent{
+width: 75%;
+/* border: solid red */
+}
+.smallOuter{
+width: 30%;
+/* border: solid cyan; */
+padding-top: 2em;
+/* background-image: url('/src/assets/icon-work.svg'); */
+background-repeat: no-repeat;
+background: hsl(15, 100%, 70%);
+border-top-left-radius: 12px;
+border-top-right-radius: 12px;
+border-bottom-left-radius: 14px;
+border-bottom-right-radius: 14px;
+}
+.smallInner{
+/* border: solid magenta; */
+background: hsl(235, 46%, 20%);
+border-top-left-radius: 12px;
+border-top-right-radius: 12px;
+border-bottom-left-radius: 12px;
+border-bottom-right-radius: 12px;
+padding: 2em;
+}
+.userName{
+padding: .5em 1.5em 2.5em 1.5em;
+}
+.Dates{
+    padding: .7em;
+}
 .Dates p{
     padding-left: 1em;
-    margin-bottom: 1em;
-    margin-top: 1em;
+    margin-bottom: .6em;
+    margin-top: .6em;
+}
+.parent{
+display: flex;
+width: 60%;
+/* border: solid chartreuse; */
+justify-content: space-between;
+margin: auto;
+margin-top: 12%;
 }
 
 .userPic{
-    width: 35%;
-    margin-bottom: 1em;
-    border: solid hsl(0, 0, 100%) 5px;
+    width: 40%;
+    margin: 1em;
+    border: solid;
+    border-color: white;
+    border-radius: 100%;
 }
