@@ -26,15 +26,30 @@ body{
 }
 .smallcardParent{
 width: 75%;
-/* border: solid red */
+}
+.cardImage{
+width: 30%;
+display: flex;
+margin-left: auto;
+margin-right: .5em;
+}
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 1em;
+}
+header img{
+width: 15px;
+height: 5px;
+}
+.cardTime h2{
+padding: .3em  0em;
 }
 .smallOuter{
 width: 30%;
-/* border: solid cyan; */
-padding-top: 2em;
-/* background-image: url('/src/assets/icon-work.svg'); */
-background-repeat: no-repeat;
-background: hsl(15, 100%, 70%);
+margin-bottom: 1em;
+background-color: hsl(15, 100%, 70%);
 border-top-left-radius: 12px;
 border-top-right-radius: 12px;
 border-bottom-left-radius: 14px;
@@ -42,12 +57,16 @@ border-bottom-right-radius: 14px;
 }
 .smallInner{
 /* border: solid magenta; */
+position:relative;
 background: hsl(235, 46%, 20%);
 border-top-left-radius: 12px;
 border-top-right-radius: 12px;
 border-bottom-left-radius: 12px;
 border-bottom-right-radius: 12px;
-padding: 2em;
+padding-left: 2em;
+padding-right: 2em;
+padding-top: 1em;
+padding-bottom: 2em;
 }
 .userName{
 padding: .5em 1.5em 2.5em 1.5em;
@@ -63,16 +82,15 @@ padding: .5em 1.5em 2.5em 1.5em;
 .parent{
 display: flex;
 width: 60%;
-/* border: solid chartreuse; */
 justify-content: space-between;
 margin: auto;
 margin-top: 12%;
 }
 
 .userPic{
-    width: 40%;
-    margin: 1em;
-    border: solid;
-    border-color: white;
-    border-radius: 100%;
+width: 40%;
+margin: 1em;
+border: solid;
+border-color: white;
+border-radius: 100%;
 }
