@@ -14,6 +14,15 @@ import play from "./assets/icon-play.svg";
 
 export default function App() {
   const cardImgs = [work,play,study,exercise,social,selfcare]
+  const cardColors = [
+    "hsl(15, 100%, 70%)",
+    "hsl(195, 74%, 62%)",
+     "hsl(348, 100%, 68%)",
+     "hsl(145, 58%, 55%)",
+     "hsl(264, 64%, 52%)",
+     "hsl(43, 84%, 65%)"
+    ]
+
 
 // console.log(data);
 
@@ -25,6 +34,7 @@ title={card.title}
 current={card.timeframes.weekly.current}
 previous={card.timeframes.weekly.previous}
 image={cardImgs[index]}
+color={cardColors[index]}
  />
 )
   

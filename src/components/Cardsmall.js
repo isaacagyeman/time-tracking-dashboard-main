@@ -1,11 +1,11 @@
 import React from 'react';
 import ellipsis from '../assets/icon-ellipsis.svg'
-import work from '../assets/icon-work.svg';
+
 
 export default function Cardsmall(props){
  
 return(
-    <section className='smallOuter'>
+    <section className='smallOuter' style={{backgroundColor:props.color}}>
         <img src={props.image} className='cardImage'/>
         <div className='smallInner'>
             <header>

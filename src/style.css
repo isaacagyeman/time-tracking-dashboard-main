@@ -26,10 +26,10 @@ body{
 }
 .smallcardParent{
 width: 80%;
-/* border: solid magenta; */
+border: solid magenta;
 display: flex;
 flex-wrap: wrap;
-/* justify-content: space-evenly; */
+justify-content: space-around;
 
 }
 .cardImage{
@@ -55,17 +55,12 @@ padding: .3em  0em;
 width: 30%;
 margin-bottom: 1em;
 background-color: hsl(15, 100%, 70%);
-/* background-image: url('/src/assets/icon-work.svg');
-background-repeat: no-repeat;
-background-position-x: right; */
 border-top-left-radius: 12px;
 border-top-right-radius: 12px;
 border-bottom-left-radius: 14px;
 border-bottom-right-radius: 14px;
 }
 .smallInner{
-/* border: solid magenta; */
-/* position:relative; */
 background: hsl(235, 46%, 20%);
 border-top-left-radius: 12px;
 border-top-right-radius: 12px;
@@ -83,9 +78,9 @@ padding: .5em 1.5em 2.5em 1.5em;
     padding: .7em;
 }
 .Dates p{
-    padding-left: 1em;
-    margin-bottom: .6em;
-    margin-top: .6em;
+padding-left: 1em;
+margin-bottom: .6em;
+margin-top: .6em;
 }
 .parent{
 display: flex;
@@ -93,7 +88,7 @@ width: 60%;
 justify-content: space-between;
 margin: auto;
 margin-top: 12%;
-/* border: solid chartreuse; */
+border: solid chartreuse;
 }
 
 .userPic{
