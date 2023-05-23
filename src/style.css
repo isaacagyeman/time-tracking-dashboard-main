@@ -25,7 +25,12 @@ body{
     border-bottom-right-radius: 12px;
 }
 .smallcardParent{
-width: 75%;
+width: 80%;
+/* border: solid magenta; */
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+
 }
 .cardImage{
 width: 30%;
@@ -60,7 +65,7 @@ border-bottom-right-radius: 14px;
 }
 .smallInner{
 /* border: solid magenta; */
-position:relative;
+/* position:relative; */
 background: hsl(235, 46%, 20%);
 border-top-left-radius: 12px;
 border-top-right-radius: 12px;
@@ -88,6 +93,7 @@ width: 60%;
 justify-content: space-between;
 margin: auto;
 margin-top: 12%;
+/* border: solid chartreuse; */
 }
 
 .userPic{

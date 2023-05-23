@@ -1,20 +1,20 @@
 import React from 'react';
 import ellipsis from '../assets/icon-ellipsis.svg';
-import work from '../assets/icon-work.svg';
+// import work from '../assets/icon-work.svg';
 
-export default function Cardsmall(cardImage , cardColor){
+export default function Cardsmall(cardPic, props){
  
 return(
-    <section className='smallOuter' style={{background:`${cardColor}`}}>
-        <img src={cardImage} className='cardImage'/>
+    <section className='smallOuter'>
+        <img src={cardPic} className='cardImage'/>
         <div className='smallInner'>
             <header>
-                <p className='cardTitle'>work</p>
+                <p className='cardTitle'>{props.title}</p>
                 <img src={ellipsis}/>
             </header>
             <div className='cardTime'>
-                <h2>32hrs</h2>
-                <p>Last week-36hrs</p>
+                <h2>{props.timeframes.weekly.current}hrs</h2>
+                <p>Last week-{props.timeframes.weekly.previous}hrs</p>
             </div>
         </div>
     </section>
