@@ -10,7 +10,7 @@ return(
 <img src={profilepic} className="userPic"/>
 <div className="userName">
 <p>Report for</p>
-<h2>Jeremy Robson</h2>
+<p>Jeremy Robson</p>
 </div>
 </div>
 <div className="Dates">

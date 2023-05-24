@@ -13,7 +13,7 @@ return(
                 <img src={ellipsis}/>
             </header>
             <div className='cardTime'>
-                <h2>{props.current}hrs</h2>
+                <p>{props.current}hrs</p>
                 <p>Last week-{props.previous}hrs</p>
             </div>
         </div>
