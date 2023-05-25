@@ -5,18 +5,21 @@ import ellipsis from '../assets/icon-ellipsis.svg'
 export default function Cardsmall(props){
  
 return(
-    <section className='smallOuter' style={{backgroundColor:props.color}}>
-        <img src={props.image} className='cardImage'/>
-        <div className='smallInner'>
-            <header>
-                <p className='cardTitle'>{props.title}</p>
-                <img src={ellipsis}/>
-            </header>
-            <div className='cardTime'>
-                <p>{props.current}hrs</p>
-                <p>Last week-{props.previous}hrs</p>
-            </div>
+ 
+    <div className='card'>
+        <div className='smallOuter' style={{backgroundColor:props.color}}>
+            <img src={props.image} className='cardImage' />
         </div>
-    </section>
+        <div className='smallInner'>
+        <header>
+            <p className='cardTitle'>{props.title}</p>
+            <img src={ellipsis}/>
+        </header>
+        <div className='cardTime'>
+            <p className='hours'>{props.current}hrs</p>
+            <p className='previous'>Last week-{props.previous}hrs</p>
+        </div>
+        </div>
+    </div>
 );
 } ;
