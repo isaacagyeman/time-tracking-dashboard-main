@@ -17,7 +17,6 @@ body{
 }
 
 .cardBigRoot{
-/* border: solid purple; */
 width: 23%;
 
 }
@@ -56,7 +55,6 @@ font-weight: 300;
 }
 .smallcardParent{
 width: 80%;
-/* border: solid magenta; */
 display: flex;
 flex-wrap: wrap;
 justify-content: space-evenly;
@@ -84,7 +82,6 @@ height: 5px;
 padding: .3em  0em;
 }
 .card{
-/* border: solid maroon; */
 position: relative;
 width: 30%;
 }
@@ -131,15 +128,57 @@ justify-content: space-between;
 margin: auto;
 margin-top: 10%;
 padding: 2em;
-/* border: solid chartreuse; */
 }
 
 .userPic{
-width: 40%;
+width: 60px;
+height: 60px;
 margin: 1em;
 border: solid;
 border-color: white;
 border-radius: 100%;
 }
 
-/* Media Query */
+/* Media Query for mobile and smaller screens*/
+@media (max-width:550px){
+.parent{
+display: block;
+width: 100%;
+}
+.smallcardParent{
+display: block;
+width: 100%;
+}
+.cardTime{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.cardBigRoot{
+width: 100%;
+}
+.card{
+width: 100%;
+}
+.cardOuter{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.cardInner{
+display: flex;
+align-items: center;
+}
+.userReport{
+padding:  .7em;
+}
+.personName{
+font-size: 1.5rem;
+}
+}
+
+@media (min-width:600px){
+.parent{
+width: 100%;
+}
+}

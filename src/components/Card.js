@@ -20,23 +20,5 @@ return(
         </div>
 
     </section>
-/*
-{/* <section className="cardOuter">
-<div className="cardInner">
-<img src={profilepic} className="userPic"/>
-<div className="userName">
-<p>Report for</p>
-<p>Jeremy Robson</p>
-</div>
-</div>
-<div className="Dates">
-<p>Daily</p>
-<p>Weekly</p>
-<p>Monthly</p>            
-</div>
-</section> 
-}
-*/
-
 )
 }
