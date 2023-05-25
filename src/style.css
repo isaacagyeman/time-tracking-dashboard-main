@@ -14,24 +14,45 @@ body{
     color: white;
     font-weight: 300;
     font-size: 1rem;
+}
+
+.cardBigRoot{
+/* border: solid purple; */
+width: 23%;
 
 }
 
 .cardOuter{
     background-color: hsl(235, 46%, 20%);
-    width: 23%;
+    padding: 1.5em;
+    position: relative;
+    bottom: .65em;
+    z-index: -1;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    color: hsl(235, 45%, 60%);
+}
+.cardOuter p{
+margin-top: .8em;
+}
+.cardInner{
+    background-color:  hsl(246, 80%, 60%);
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
 }
-.cardInner{
-    background-color:  hsl(246, 80%, 60%);
-    padding: .4em;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
+.userReport{
+padding: 0em 1.5em  3em 1.5em;
+}
+.headingText{
+font-size: .8rem;
+color: hsl(235, 45%, 60%);
+font-weight: 400;
+}
+.personName{
+font-size: 2rem;
+font-weight: 300;
 }
 .smallcardParent{
 width: 80%;
@@ -88,13 +109,7 @@ transition: background ;
 background: hsl(235, 45%, 60%);
 cursor: pointer
 }
-/* .userName{
-padding: .5em 1.5em 2.5em 1.5em;
-} */
-.Dates{
-    /* padding: .7em; */
-color: hsl(235, 45%, 60%);
-}
+
 .hours{
 font-size: 2.3rem;
 padding-bottom: .1em;
@@ -126,3 +141,5 @@ border: solid;
 border-color: white;
 border-radius: 100%;
 }
+
+/* Media Query */

@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./Screenshot%202023-05-25%20at%2022-19-49%20React%20App.png)
 
 
 
